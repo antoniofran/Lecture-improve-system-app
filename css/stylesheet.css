@@ -1,0 +1,193 @@
+/* default */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+em {
+    font-size: smaller;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+textarea {
+    margin: 0 0 -8px 0;
+}
+
+/* section-title */
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0.7em 0;
+}
+
+.section-title-sub {
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0;
+    margin: 0.7em 0;
+}
+
+/* messages */
+
+#site-notice, #site-error {
+    font-size: 2em;
+    padding: 0.3em;
+}
+
+#site-notice {
+    background: green;
+}
+
+#site-error {
+    background: red;
+}
+
+/* main styles */
+
+.container {
+    background: darkseagreen;
+}
+
+.header, .footer {
+    background: slateblue;
+    font-size: 1.5em;
+    height: 3em;
+    padding: 1em 0.75em;
+    margin: 0;
+}
+
+.content-left, .content-right {
+    width: 50%;
+    margin: 0;
+    padding: 1em;
+    background: darkseagreen;
+    font-size: 1.1em;
+    min-height: calc(100vh - 8.2em);
+}
+
+/* setup-navigator */
+
+.setup-navigator {
+    padding-top: 0.6em;
+}
+
+.setup-navigator td {
+    width: 8em;
+}
+
+.setup-navigator td:first-child {
+    text-align: left;
+}
+
+.setup-navigator td:last-child {
+    text-align: right;
+}
+
+.setup-navigator input {
+    width: 6em;
+}
+
+.setup-navigator-side ul {
+    font-size: smaller;
+}
+
+/* navigation buttons */
+
+.navbttn-left {
+    background: lightgrey;
+    padding: 0.2em;
+    border: none;
+}
+
+.navbttn-right {
+    background: white;
+    padding: 0.2em;
+    border: none;
+}
+
+.navbttn-small {
+    background: white;
+    padding: 0.1em;
+    border: none;
+}
+
+.navbttn-left:hover, .navbttn-right:hover, .navbttn-small:hover {
+    cursor: pointer;
+}
+
+/* config-list */
+
+.config-list {
+    padding-top: 0.6em;
+}
+
+.config-list thead td {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.config-list td {
+    min-width: 3em;
+}
+
+/* span-select */
+
+#span-select {
+    margin: -1px 0 0 -1px;
+    border-color: slateblue;
+    background: none;
+    color: white;
+    padding: 0;
+}
+
+#span-select:hover {
+    cursor: pointer;
+}
+
+#span-select option {
+    color: black;
+}
+
+/* helper classes */
+
+.grade-select {
+    height: 22px !important;
+    line-height: 22px !important;
+}
+
+.disabled-ui:hover {
+    cursor: not-allowed !important;
+}
+
+.add-fdbck {
+    list-style-type: none;
+}
+
+/* float styles */
+
+.flt-left {
+    float: left;
+}
+
+.flt-right {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
